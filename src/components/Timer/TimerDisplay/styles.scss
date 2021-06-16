@@ -1,0 +1,13 @@
+.timer {
+  font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  & > span {
+    font-size: 8rem;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    & > button {
+      width: 30%;
+    }
+  }
+}
